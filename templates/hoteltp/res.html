@@ -1,0 +1,26 @@
+{% extends 'hoteltp/base.html' %}
+{% load static %}
+
+{% block body %}
+<body>
+{% include 'hoteltp/navbar.html' %}
+<section style="padding:40px;margin-bottom:70px;background: url({% static 'hoteltp/img/natura.jpg' %}) no-repeat center center;background-size:cover;">
+
+<div style="width:40%;border-radius:10px;margin:auto;background: rgba(255,255,255,.5);padding:40px;">
+	<h4 style="margin-bottom: 20px">Register</h4>
+	  <form method="post" action="" class="form-qnt">
+	    {% csrf_token %}
+	    <div style="font-family: 'Playfair Display', serif;margin:10px 0;font-size: 18px"><font style="color:#ffb100">{{kt}}</font></div>
+	    <div class="form-group">
+		  {{form.as_p}}
+	     </div>
+	  	<div style="">
+		    <button type="submit" class="btn btn-primary">Submit</button>
+		   	<a style="margin-left: 40px;color: white;background: rgba(36, 37, 42, .5);font-size: 17px; text-decoration: none; padding-left: 30px;padding-right: 30px" class="btn btn-link" href="{% url 'hotel:login' %}">Back</a> </p>
+	   </div>
+	  </form>
+	 </div>
+  </section>
+{% endblock %}
+
+

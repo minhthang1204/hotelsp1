@@ -1,0 +1,1056 @@
+{% extends 'hoteltp/base.html' %}
+{% load static %}
+
+{% block body %}
+
+    <body id="home_one">
+        {% include 'hoteltp/navbar.html' %}
+        <!-- start main slider -->
+        <div class="main_slider_area">
+            <div class="main_slider" id="slider_rev">
+                <!-- start hotel booking -->
+                <div class="hotel_booking_area">
+                    <div class="container">
+                        <div class="hotel_booking">
+							<h1 style="text-align: center;color: white; margin:0; font-weight: bold;"> ✯ SAPA HOTEL ✯</h1>                               
+                            <!-- special offer start -->
+                            <div class="special_offer_main">
+                                <img src="{%static 'hoteltp/img/special-offer-main.png'%}" alt="">
+                            </div>
+                            <!-- end offer start -->
+                        </div>
+                    </div>
+                </div>
+                <!-- end hotel booking -->
+                <div class="fullwidthbanner-container" >
+                    <div class="fullwidth_home_banner">
+                        <ul>
+                            
+                            <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+                                <img src="{%static 'hoteltp/img/rev-slider/slider-one.jpg'%}" alt="slide" >
+                                <div class="tp-caption large_black sfr" data-x="105" data-y="197" data-speed="1200" data-start="1100" data-easing="easeInOutBack"
+                                    style="font-family: 'Playfair Display', serif; font-size: 60px;color: #131e2a; margin-bottom: 10px; font-style: italic; text-transform: uppercase; line-height: 40px;">
+                                    Nghỉ dưỡng phong cách
+                                </div>
+                                <div class="tp-caption large_black sfr" data-x="105" data-y="255" data-speed="1500" data-start="1400" data-easing="easeInOutBack"
+                                    style="font-family: 'Playfair Display', serif; font-size: 35px;color: #131e2a; margin-bottom: 23px; margin-top: 10px; padding-left: 80px; line-height: 40px;">
+                                    Tận hưởng kỳ nghỉ kèm các bửa ăn chính <br>
+                                    & cùng các dịch vụ tốt nhất
+                                </div>
+                                <div class="tp-caption lfb carousel-caption-inner" data-x="105" data-y="313" data-speed="1300" data-start="1700" data-easing="easeInOutBack" 
+                                    style="background: #f7c411; padding: 10px; cursor: pointer; margin-top: 40px;  margin-left: 80px;">
+                                    <a href="#" class="" style="background: #f7c411; border-radius: 0; color: #313a45; display: inline-block; font-size: 18px; padding: 8px 34px; text-transform: uppercase; font-weight: bold; border: 1px solid #9e811a;">Xem thêm</a>
+                                </div>
+                            </li>
+
+                            <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+                                <img src="{%static 'hoteltp/img/rev-slider/slider-one.jpg'%}" alt="slide" >
+                                <div class="tp-caption large_black sfr" data-x="105" data-y="197" data-speed="1200" data-start="1100" data-easing="easeInOutBack"
+                                    style="font-family: 'Playfair Display', serif; font-size: 60px;color: #131e2a; margin-bottom: 10px; font-style: italic; text-transform: uppercase; line-height: 40px;">
+                                    Trải nghiệm văn hoá
+                                </div>
+                                <div class="tp-caption large_black sfr" data-x="105" data-y="255" data-speed="1500" data-start="1400" data-easing="easeInOutBack"
+                                    style="font-family: 'Playfair Display', serif; font-size: 35px;color: #131e2a; margin-bottom: 23px; margin-top: 10px; padding-left: 80px; line-height: 40px;">
+                                    Khám phá không giới hạn những nét đẹp <br>
+                                    văn hoá địa phương đa dạng của Việt Nam <br>
+                                    ngay tại SAPA Hotel
+                                </div>
+                                <div class="tp-caption lfb carousel-caption-inner" data-x="105" data-y="313" data-speed="1300" data-start="1700" data-easing="easeInOutBack" 
+                                    style="background: #f7c411; padding: 10px; cursor: pointer; margin-top: 80px;  margin-left: 80px;">
+                                    <a href="#" class="" style="background: #f7c411; border-radius: 0; color: #313a45; display: inline-block; font-size: 18px; padding: 8px 34px; text-transform: uppercase; font-weight: bold; border: 1px solid #9e811a;">Xem thêm</a>
+                                </div>
+                            </li>							                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end main slider -->
+        
+        <!-- start welcome section -->
+        <section class="welcome_area">  
+            <div class="container">
+                    <div class="welcome">
+                        <div class="section_title nice_title content-center">
+                            <h3>SAPA HOTEL</h3>
+                        </div>
+                        <div class="section_description">
+                            <p style="font-family: 'Fira Sans', sans-serif;"> “Đích đến không phải là nơi bạn kết thúc chuyến đi mà đó là những rủi ro và những kỷ niệm bạn đã tạo ra trên suốt chặng đường.” – Penelope Riley</p>
+                        </div>
+                        <div class="row">
+                            <div class="other_room">
+		                        <div class="section_content">
+		                            <!-- start single room details -->
+		                            <div class="accomodation_single_room">
+		                                <div class="container">
+		                                    <div class="row">
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-ten.jpg' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 1</h6>
+		                                                                <p>600.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A01" %}
+			                                                            {% if i.active == False%}
+			                                                            <form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            {% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+		                                                            {%endif%}
+		                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 1</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Loại phòng đơn giản với những trang bị tối thiểu, diện tích nhỏ-gọn, ở tầng thấp, có view không đẹp. 
+		                                                            </p>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                            	Có mức giá thấp nhất trong khách sạn.
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A01" %}
+			                                                            {% if i.active == False%}
+			                                                            <form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+		                                                                <div class="floatright">
+		                                                                    <button type="submit" class="btn btn-book">Đặt phòng</button>
+		                                                                </div>
+		                                                                </form>
+		                                                                {% else %}
+			                                                            <div class="floatright">
+		                                                                    <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                                </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+			                                                            {%endfor%}
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-nineteen.png' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 2</h6>
+		                                                                <p>550.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A02" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                            
+		                                                            
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 2</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Loại phòng có chất lượng cao hơn Standard Room, với diện tích khoảng 40 – 45 m².
+		                                                            </p>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                View đẹp, nhiều trang thiết bị tiện nghi.
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A02" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                                
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-thirteen.jpg' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 3</h6>
+		                                                                <p>550.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A03" %}
+			                                                            {% if i.active == False%}
+		                                                            <form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            {% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+		                                                            {%endif%}
+		                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                            
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 3</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                               	Loại phòng chất lượng cao ở trên tầng cao, tầm nhìn đẹp và các trang thiết bị cao cấp.
+		                                                            </p>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                               	Diện tích khoảng 45 – 65 m², kê thêm 1 giường đơn.
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A03" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                              
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-fourteen.jpg' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 4</h6>
+		                                                                <p>550.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A04" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                            
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 4</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Loại phòng cao cấp, ở trên cao, trang bị những thiết bị cao cấp và các dịch vụ kèm theo. Có phòng khách và phòng ngủ riêng biệt.
+		                                                            </p>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Có ban công view siêu đẹp.
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A04" %}
+			                                                            {% if i.active == False%}
+		                                                            <form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                               
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-fifteen.png' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 5</h6>
+		                                                                <p>550.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A05" %}
+			                                                            {% if i.active == False%}
+		                                                            <form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                            
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 5</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Một loại phòng Suite với phòng khách kết nối với một hoặc nhiều phòng ngủ và không gian rộng.
+		                                                            </p>
+		                                                            <p>
+		                                                                Diện tích lớn hơn Suite Room khoảng 70 – 100 m².
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A05" %}
+			                                                            {% if i.active == False%}
+		                                                            <form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                                
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-twenty.png' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 6</h6>
+		                                                                <p>550.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A06" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                            
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 6</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Một loại phòng Suite còn được gọi là phòng tổng thống. Căn phòng đắt nhất và lớn nhất trong khách sạn.
+		                                                            </p>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Dịch vụ riêng (Quản gia).
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A06" %}
+			                                                            {% if i.active == False%}
+		                                               	             	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                                
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-seventeen.png' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 7</h6>
+		                                                                <p>550.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A07" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                           
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 7</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Loại phong liền kề, có tưởng nhưng không có cửa kết nối, có thể ở bên kia sảnh.
+		                                                            </p>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Mỗi phòng có diện tích khoảng từ 30 - 45 m².
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A07" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                               
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-lg-3 col-md-3 col-sm-3">
+		                                            <div class="single_room_wrapper clearfix padding-bottom-30">
+		                                                <figure class="uk-overlay uk-overlay-hover">
+		                                                    <div class="room_media">
+		                                                        <a href="#"><img src="{% static 'hoteltp/img/room-image-eighteen.png' %}" alt=""></a>
+		                                                    </div>
+		                                                    <div class="room_title border-bottom-whitesmoke clearfix">
+		                                                            <div class="left_room_title floatleft">
+		                                                                <h6>Phòng 8</h6>
+		                                                                <p>550.000đ/ <span>đêm</span></p>
+		                                                            </div>
+		                                                            {% for i in f %}
+			                                                            {% if i.sophong == "A08" %}
+			                                                            {% if i.active == False%}
+		                                                            	<form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="left_room_title floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="left_room_title floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                            
+		                                                        </div>
+		                                                    <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
+		                                                        <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
+		                                                            <h5>Phòng 8</h5>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Loại phòng giới hạn, thiết kế như một Suite Room nhỏ gọn dành cho 2 người nhưng giá chỉ xấp xỉ với Deluxe Room.
+		                                                            </p>
+		                                                            <p style="font-family: 'Fira Sans', sans-serif;">
+		                                                                Diện tích từ 32-45 m².
+		                                                            </p>
+		                                                            <div class="test single_room_cost clearfix">
+		                                                                <div class="floatleft">
+		                                                                    <p>550.000đ/ <span>đêm</span></p>
+		                                                                </div>
+		                                                                {% for i in f %}
+			                                                            {% if i.sophong == "A08" %}
+			                                                            {% if i.active == False%}
+		                                                            <form method="post">
+			                                                            {% csrf_token %}
+			                                                            <input type="text" hidden="true" value="{{i.sophong}}" name="sp">
+			                                                            <div class="floatright">
+			                                                                <button type="submit" class="btn btn-book">Đặt phòng</button>
+			                                                            </div>
+			                                                            </form>
+		                                                            	{% else %}
+		                                                            <div class="floatright">
+		                                                                <a href="#" class="btn btn-book">Hết phòng</a>
+		                                                            </div>
+			                                                            {%endif%}
+			                                                            {%endif%}
+		                                                            {%endfor%}
+		                                                            </div>
+		                                                        </div>
+		                                                    </div>
+		                                                </figure>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                            <!-- end single room details -->
+		
+		                        </div>
+                    </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- end welcome section -->
+        
+        <!-- start Hotel Facilities section -->
+        <section class="hotel_facilities_area margin-top-115 margin-bottom-100" style="background: url({% static 'hoteltp/img/hotel-facilities-bg.jpg'%}) no-repeat fixed 0 0;">
+            <div class="container">
+                <div class="hotel_facilities">
+                    <div class="section_title nice_title content-center">
+                        <h3>Hotel facilties</h3>
+                    </div>
+                    <div class="hotel_facilities_content">
+                        <div role="tabpanel">
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#restaurant" aria-controls="restaurant" role="tab" data-toggle="tab"><img src="{%static 'hoteltp/img/home-facilities-icon-eleven.png'%}" alt="restaurant"><span>restaurant</span></a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#sports-club" aria-controls="sports-club" role="tab" data-toggle="tab"><img src="{%static 'hoteltp/img/home-facilities-icon-seven.png'%}" alt="sports-club"><span>sports-club</span></a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#pick-up" aria-controls="pick-up" role="tab" data-toggle="tab"><img src="{%static 'hoteltp/img/home-facilities-icon-four.png'%}" alt="pick-up"><span>massage</span></a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#bar" aria-controls="bar" role="tab" data-toggle="tab"><img src="{%static 'hoteltp/img/home-facilities-icon-nine.png'%}" alt="bar"><span>bar</span></a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#gym" aria-controls="gym" role="tab" data-toggle="tab"><img src="{%static 'hoteltp/img/home-facilities-icon-ten.png'%}" alt="gym"><span>gym</span></a>
+                                </li>
+                            </ul>                           
+
+                          
+                            <!-- Tab panes -->
+                            <div class="tab-content" style="padding: 50px">
+                                <div role="tabpanel" class="tab-pane active" id="restaurant">
+                                    <div class="single-tab-content">
+                                        <div class="row">
+                                            <div class="co-lg-5 col-md-5 col-sm-6">
+                                                <div class="single-tab-image">
+                                                    <a href="#"><img src="{%static 'hoteltp/img/hotel-facility-one.jpg'%}" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="co-lg-7 col-md-7 col-sm-6">
+                                                <div class="single-tab-details">
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Dịch vụ khách sạn</p></h6>
+                                                    <h3>RESTAURANT & BUFFETS</h3>
+                                                    <p>
+                                                        SAPA Hotel có một hệ thống nhà hàng với các món ăn đa dạng, mang bản sắc của nhiều vùng miền và các đất nước khác nhau, được tạo ra bởi các đầu bếp có tay nghề cao. Mang đến cho du khách một thế giới ẩm thực vô vàn màu sắc khác nhau. 
+                                                    </p>
+                                                    <p>
+                                                        Các buổi buffets được tổ chức vào sáng thứ 7 và chủ nhật hàng tuần với hơn 200 món ăn, từ các món mặn tới các món chay và các món tráng miệng cũng như các loại thức uống để du khách có thể tận hưởng tốt nhất. 
+                                                    </p>
+                                                    <div class="our_services">
+                                                        <a href="#" class="margin-right-33" style="font-family: 'Fira Sans', sans-serif;">RESTAURANT: 8:00-22:00 </a>
+                                                        <a href="#" style="font-family: 'Fira Sans', sans-serif;">Buffet: 8:00-12:00 (Thứ 7 & Chủ Nhật)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="sports-club">
+                                    <div class="single-tab-content">
+                                        <div class="row">
+                                            <div class="co-lg-5 col-md-5">
+                                                <div class="single-tab-image">
+                                                    <a href="#"><img src="{%static 'hoteltp/img/sport.jpg'%}" alt="" style="padding-top: 20px;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="co-lg-7 col-md-7">
+                                                <div class="single-tab-details">
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Dịch vụ khách sạn</p></h6>
+                                                    <h3>Sports Club</h3>
+                                                    <p>
+                                                       	Du khách có thể tham gia vào các Sports Club ngay trong SAPA Hotel với 7 bộ môn để bạn lựa chọn giúp cho cũng có thể rèn luyện sức khoẻ và giao lưu với bạn bè ngay trong chuyến đi của mình.
+                                                    </p>
+                                                    <p>
+                                                        Để giúp du khách trải nghiệm tốt nhất tại các Sports Club, SAPA Hotel đã xây dựng 1 nhà thi đấu đa năng, 1 công viên ngay phía giữa khách sạn và 3 hồ bơi với 1 hồ trẻ em và 2 hồ tầm trung cùng với đội ngủ thành viên Club vui vẻ hoà đồng và thân thiện. 
+                                                    </p>
+                                                    <div class="our_services">
+                                                        <a href="#" class="margin-right-33">Service Hours: 5:00-22:00 </a>
+                                                        <a href="#">service charge : 550.000đ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="pick-up">
+                                    <div class="single-tab-content">
+                                        <div class="row">
+                                            <div class="co-lg-5 col-md-5">
+                                                <div class="single-tab-image">
+                                                    <a href="#"><img src="{%static 'hoteltp/img/massage1.jpg'%}" alt="" style="padding-top: 30px;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="co-lg-7 col-md-7">
+                                                <div class="single-tab-details">
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Dịch vụ khách sạn</p></h6>
+                                                    <h3>Massage</h3>
+                                                    <p>
+                                                        Tận hưởng dịch vụ massage toàn thân và massage chân với bằng các thủ thuật như xoa bóp, bấm huyệt, vỗ, miết, day vào các huyệt đạo và cơ bắp trên cơ thể. Giúp du khách có thể xua tan mệt mỏi, các cơn đau, nhức mỏi trong chuyến đi cũng như ổn định tinh thần.
+                                                    </p>
+                                                    <p>
+                                                        Các chuyên viên massage có bằng cấp từ các trung tâm số một trên cả nước với thái độ tận tình vui vẻ sẽ giúp du khách tận hưởng dịch vụ massage của SAPA Hotel một cách trọn vẹn và thoải mái nhất.  
+                                                    </p>
+                                                    <div class="our_services">
+                                                        <a href="#" class="margin-right-33">Service Hours: 9:00-17:00 </a>
+                                                        <a href="#">service charge : 550.000đ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="bar">
+                                    <div class="single-tab-content">
+                                        <div class="row">
+                                            <div class="co-lg-5 col-md-5">
+                                                <div class="single-tab-image">
+                                                    <a href="#"><img src="{%static 'hoteltp/img/bar.jpg'%}" alt="" style="padding-top: 20px;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="co-lg-7 col-md-7">
+                                                <div class="single-tab-details">
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Dịch vụ khách sạn</p></h6>
+                                                    <h3>Bar</h3>
+                                                    <p>
+                                                        Quán Bar toạ lạc trên tầng cao nhất của khách sạn, với phong cách cổ điển Châu Âu cùng những bản nhạc jazz đưa du khách tới 1 không gian vừa có thể ngắm phong cảnh ở trên cao vừa tận hưởng một buổi tối vô cùng tuyệt vời.    
+                                                    </p>
+                                                    <p>
+                                                        Các Bartender với kỹ thuật pha chế cao cấp sẽ gửi tới du khách những ly cocktail, các loại rượu thượng hàng và các đồ uống tuyệt nhất cho một buổi tối nhiều cảm xúc tại QNT Hotel Bar.
+                                                    </p>
+                                                    <div class="our_services">
+                                                        <a href="#" class="margin-right-33">Service Hours: 19.00-23:00 </a>
+                                                       	 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="gym">
+                                    <div class="single-tab-content">
+                                        <div class="row">
+                                            <div class="co-lg-5 col-md-5">
+                                                <div class="single-tab-image">
+                                                    <a href="#"><img src="{%static 'hoteltp/img/gym.jpg'%}" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="co-lg-7 col-md-7">
+                                                <div class="single-tab-details">
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Dịch vụ khách sạn</p></h6>
+                                                    <h3>Gym</h3>
+                                                    <p>
+                                                        SAPA Hotel cũng trang bị 2 phòng gym cao cấp với đầy đủ các trang thiết bị máy móc cần thiết để du khách để có thể trải nghiệm tất cả các loại hình tập luyện đáp ứng nhu cầu luyện tập của con người.
+                                                    </p>
+                                                    <p>
+                                                        Đội ngũ huấn luyện viên phòng gym có trình độ chuyên môn cao, trẻ trung, năng động luôn giúp đỡ các vận động viên một cách tận tình và tốt nhất.
+                                                    </p>
+                                                    <div class="our_services">
+                                                        <a href="#" class="margin-right-33">Service Hours: 5.00-19:00 </a>
+                                                        <a href="#">service charge : 550.000đ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                           
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Hotel Facilities section -->
+		 <!-- start Hotel Showcase section -->
+        <section class="hotel_showcase_area margin-bottom-128 margin-top-110">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="hotel_showcase">
+                        <div class="section_title nice_title content-center">
+                            <h3>Reivew</h3>
+                        </div>
+                        <div class="section_content">
+                            <div class="showcase_slider">
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-one.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-two.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-three.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-four.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-five.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-six.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-seven.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-one.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-two.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="{% url 'hotel:gallery' %}"><img src="{%static 'hoteltp/img/showcase-slider-three.jpg'%}" alt="img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Hotel Showcase section -->
+        <!-- start About Us section -->
+        <section class="about_us_area margin-bottom-128">
+            <div class="container">
+                <div class="about_us clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding-left-0">
+                        <div class="news">
+                            <div class="section_title margin-bottom-50" >
+                                <h5>Tin tức</h5>
+                            </div>
+                            <div class="section_description" style="padding-right: 0px">
+                                <div class="row">
+                                    <div class="col-md-12" style="padding-right: 10px; padding-left: 10px;">
+                                        <div class="single_content clearfix border-bottom-whitesmoke">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-4 padding-left-0">
+                                                <div class="post_media">
+                                                    <a href="{% url 'hotel:blog' %}"><img src="{%static 'hoteltp/img/news-one.jpg'%}" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-8 padding-left-0">
+                                                <div class="post_title clearfix">    
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Giáng sinh an lành, Noel vui vẻ!!! Chuỗi sự kiện Noel</p></h6>
+                                                </div>
+                                                <div class="post_content  margin-bottom-35">
+                                                    <p>23 December 2014</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_content clearfix margin-top-35 border-bottom-whitesmoke">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-4 padding-left-0">
+                                                <div class="post_media">
+                                                    <a href="{% url 'hotel:blog' %}"><img src="{%static 'hoteltp/img/news-two.jpg'%}" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-8 padding-left-0">
+                                                <div class="post_title clearfix">
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Ấm no ngày Tết, mang bửa cơm ngon tới người nghèo dịp Tết 2020 Canh Tý</p></h6>
+                                                </div>
+                                                <div class="post_content margin-bottom-35">
+                                                    <p>26 December 2019</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_content clearfix margin-bottom-35 margin-top-35">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-4 padding-left-0">
+                                                <div class="post_media">
+                                                    <a href="{% url 'hotel:blog' %}"><img src="{%static 'hoteltp/img/news-three.jpg'%}" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-8 padding-left-0">
+                                                <div class="post_title clearfix">
+                                                    <h6><p style="font-family: 'Fira Sans', sans-serif;">Giảm giá các dịch vụ và đại tiệc hoá trang mừng Xuân 2020</p></h6>
+                                                </div>
+                                                <div class="post_content">
+                                                    <p>26 December 2019</p>
+                                                </div>
+                                            </div>
+                                        </div>                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="showcase">
+                            <div class="section_title margin-bottom-50">
+                                <h5>Review</h5>
+                            </div>
+                            <div class="section_description">
+                                <div class="clearfix demo" style="">
+                                    <ul id="vertical" class="gallery list-unstyled">
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-18.jpg'%}">
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-18.jpg'%}" />
+                                        </li>
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-21.jpg'%}"> 
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-21.jpg'%}" />
+                                        </li>
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-22.jpg'%}"> 
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-22.jpg'%}" />
+                                        </li>
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-23.jpg'%}"> 
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-23.jpg'%}" />
+                                        </li>
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-24.jpg'%}"> 
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-24.jpg'%}" />
+                                        </li>
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-25.jpg'%}"> 
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-25.jpg'%}" />
+                                        </li>
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-26.jpg'%}"> 
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-26.jpg'%}" />
+                                        </li>
+                                        <li data-thumb="{%static 'hoteltp/img/lightslider-img/cS-27.jpg'%}"> 
+                                            <img alt="slider" src="{%static 'hoteltp/img/lightslider-img/cS-27.jpg'%}" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="customer_says">
+                            <div class="section_title margin-bottom-50">
+                                <h5>Phản hồi khách hàng</h5>
+                            </div>
+                            <div class="section_description">
+                                <div id="customer_says_slider" class="carousel slide" data-ride="carousel" data-pause="none">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <div class="single_says">
+                                                <div class="customer_comment">
+                                                    <p style="font-family: 'Fira Sans', sans-serif;">
+                                                        SAPA Hotel có tất cả những thứ mà chúng tôi cần đối với một nơi ở trong chuyến du lịch của mình, thức ăn, dịch vụ, nhân viên tất cả đều tuyệt.
+                                                    </p>
+                                                    <p style="font-family: 'Fira Sans', sans-serif;">
+                                                        Lần sau tôi và chồng nhất định sẽ lại tới.
+                                                    </p>
+                                                </div>
+                                                <div class="customer_detail clearfix">
+                                                    <div class="customer_pic alignleft-20">
+                                                        <a href="#"><img src="{%static 'hoteltp/img/customer.png'%}" alt="" heigth = "50px" width = "50px"></a>
+                                                    </div>
+                                                    <div class="customer_identity floatleft">
+                                                        <h6>Ngô Thị Trang</h6>
+                                                        <p>ntr@gmail.com</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="single_says">
+                                                <div class="customer_comment">
+                                                    <p style="font-family: 'Fira Sans', sans-serif;">
+                                                       Our trip to  last week was fantastic. Part of it is thanks to the SAPA Hotel .
+                                                    </p>
+                                                    <p style="font-family: 'Fira Sans', sans-serif;">
+														The next time I have the opportunity to travel to , I will also choose this place as my resting place.
+                                                    </p>
+                                                </div>
+                                                <div class="customer_detail clearfix">
+                                                    <div class="customer_pic alignleft-20">
+                                                        <a href="#"><img src="{%static 'hoteltp/img/customer.png'%}" alt="" heigth = "50px" width = "50px"></a>
+                                                    </div>
+                                                    <div class="customer_identity floatleft">
+                                                        <h6>John Henry</h6>
+                                                        <p>mrjohn@gmail.com</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="single_says">
+                                                <div class="customer_comment">
+                                                    <p style="font-family: 'Fira Sans', sans-serif;">
+                                                       	Thật là một nơi dừng chân tuyệt vời. Giường rất êm và phòng rất thoải mái và thoáng mát.
+                                                    </p>
+                                                    <p style="font-family: 'Fira Sans', sans-serif;">
+														Lần sau khi tôi và gia đình hay bạn bè tới Huế để du lịch, tôi sẽ vẫn chọn nơi này để có những trải nhiệm thú vị.
+                                                    </p>
+                                                </div>
+                                                <div class="customer_detail clearfix">
+                                                    <div class="customer_pic alignleft-20">
+                                                        <a href="#"><img src="{%static 'hoteltp/img/customer.png'%}" alt="" heigth = "50px" width = "50px"></a>
+                                                    </div>
+                                                    <div class="customer_identity floatleft">
+                                                        <h6>Lê Hoàng Long</h6>
+                                                        <p>lhlong@gmail.com</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls -->
+                                    <a class="slider_says left" href="#customer_says_slider" role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left"></i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="slider_says right" href="#customer_says_slider" role="button" data-slide="next">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end About Us section -->
+{% endblock %}

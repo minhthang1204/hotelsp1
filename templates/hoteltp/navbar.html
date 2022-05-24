@@ -1,0 +1,95 @@
+ 	{% load static %}
+ 		<!-- start preloader -->
+        <div id="loader-wrapper">
+            <div class="logo"><a href="#"><span>Hotel</span>-Booking</a></div>
+            <div id="loader">
+            </div>
+        </div>
+        <!-- end preloader -->
+        
+        <!-- start header -->
+        <header class="header_area">
+			<div class="header_top_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="header_top clearfix">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                <div class="left_header_top">
+                                    <ul>
+                                        <li><a href="#" style="font-family: Arial;"><img src="{% static 'hoteltp/img/temp-icon.png' %}" alt="temp-icon">23°C Sapa, Lào Cai</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 floatright">
+                                <div class="right_header_top clearfix floatright">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        {% if user.is_authenticated %}
+                                        <li class="">   
+                                            <a class="border-right-dark-4" href="#">XIN CHÀO, {{user.username}}</a></li>
+                                        </li>
+                                        <li class="">
+                                        <a class="border-right-dark-4" href="{% url 'hotel:logout' %}">Đăng Xuất</a></li>
+                                         </li>
+                                        {% endif %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- start main header -->
+            <div class="main_header_area">
+                <div class="container">
+                    <!-- start mainmenu & logo -->
+                    <div class="mainmenu">
+                        <div id="nav">
+                            <nav class="navbar navbar-default">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                  <div class="site_logo fix">
+                                      <a id="brand" class="clearfix navbar-brand border-right-whitesmoke" href="{% url 'hotel:index' %}"><img src=" {% static 'hoteltp/img/site-logo.png' %}" alt="Trips"></a>
+                                  </div>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                                  <ul class="nav navbar-nav">
+                                    <li role="presentation">
+                                        <a href="{% url 'hotel:index' %}">
+                                          Home
+                                        </a>
+                                    </li>        
+                                    <li><a href="{% url 'hotel:gallery' %}">Review</a></li>
+                                    <li role="presentation" class="dropdown">
+                                        <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                                          Features
+                                        </a>
+                                        <ul id="menu2" class="dropdown-menu" role="menu">
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url 'hotel:as' %}">About US</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url 'hotel:booking' %}">Booking</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url 'hotel:404' %}">404 Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="{% url 'hotel:blog' %}">Blogs</a></li>
+                                  </ul>
+                                  <div class="emergency_number">
+                                      <a href="tel:0123456789" style="margin-right: 8px"><img src="img/call-icon.png" alt="">012 345 6789</a>
+                                  </div>
+                                </div><!-- /.navbar-collapse -->
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- end mainmenu and logo -->
+                </div>
+            </div>
+            <!-- end main header -->
+
+        </header>
+        <!-- end header -->

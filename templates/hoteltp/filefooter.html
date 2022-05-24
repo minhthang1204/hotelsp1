@@ -1,0 +1,134 @@
+{% load static %}
+	<!-- start contact us area -->
+        <section class="contact_us_area content-left">
+            <div class="container">
+                <div class="contact_us clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="call clearfix">
+                            <h6>Liên hệ</h6>
+                            <p>012 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="email_us clearfix">
+                            <h6>Email</h6>
+                            <p>Sapabooking@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="news_letter clearfix">
+                            <input type="text" placeholder="Tìm kiếm thông tin">
+                            <a href="#" class="btn btn-blue">Tìm</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="social_icons clearfix">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact us area -->
+		<footer class="footer_area">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer_top padding-top-80 clearfix">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="footer_widget">
+                                <div class="footer_logo">
+                                    <a href="#"><img src="{% static 'hoteltp/img/footer-logo-one.png' %}" alt=""></a>
+                                </div>
+                                <p style="font-family: 'Fira Sans', sans-serif;"> Công ty cổ phần </br> Làng du lịch Sapa  </p>
+                                <ul>
+                                    <li>
+                                        <P style="font-family: 'Fira Sans', sans-serif;"><i class="fa fa-map-marker"></i>St 27 Trần Hưng Đạo, <br> Sapa, Lào Cai</P>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="row">
+                                <div class="footer_widget clearfix">
+                                    <h5 class="padding-left-15">Quick Links</h5>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <ul>
+                                            <li><a href="">Home</a></li>                                          
+                                            <li><a href="">Facilties</a></li>
+                                            <li><a href="{% url 'hotel:gallery' %}">Gallery</a></li>                                            
+                                                                                      
+                                        </ul>  
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 sol-sm-6">
+                                        <ul>
+                                        	<li><a href="{% url 'hotel:as' %}">About us</a></li>                                                                                         
+                                            <li><a href="{% url 'hotel:blog' %}">Blogs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="footer_widget">
+                                <h5>We Are Global</h5>
+                                <div class="footer_map">
+                                    <a href="#"><img src="{% static 'hoteltp/img/footer-map-two.jpg' %}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container">
+                            <div class="footer_copyright margin-tb-50 content-center">
+                                <p><i class="fa fa-copyright"></i> 2022 <a href="#">HotelSAPAbooking</a>. All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="{% static 'hoteltp/js/vendor/jquery-1.11.2.min.js' %}"></script>
+        <!-- bootstrap -->
+        <script src="{% static 'hoteltp/js/bootstrap.min.js' %}"></script>
+		<!-- rev slider -->
+        <script src="{% static 'hoteltp/js/rev-slider/rs-plugin/jquery.themepunch.plugins.min.js' %}"></script>
+        <script src="{% static 'hoteltp/js/rev-slider/rs-plugin/jquery.themepunch.revolution.js' %}"></script>
+        <script src="{% static 'hoteltp/js/rev-slider/rs.home.js' %}"></script>
+        <!-- uikit -->
+        <script src="{% static 'hoteltp/js/uikit.min.js' %}"></script>
+        <!-- easing -->
+		<script src="{% static 'hoteltp/js/jquery.easing.1.3.min.js' %}"></script>
+        <script src="{% static 'hoteltp/js/datepicker.js' %}"></script>
+        <!-- scroll up -->
+        <script src="{% static 'hoteltp/js/jquery.scrollUp.min.js' %}"></script>
+        <!-- owlcarousel -->
+        <script src="{% static 'hoteltp/js/owl.carousel.min.js' %}"></script>
+        <!-- lightslider -->
+        <script src="{% static 'hoteltp/js/lightslider.js' %}"></script>
+        
+        <!-- wow Animation -->
+        <script src="{% static 'hoteltp/js/wow.min.js' %}"></script>
+        <!--Activating WOW Animation only for modern browser-->
+        <!--[if !IE]><!-->
+        <script type="text/javascript">new WOW().init();</script>
+        <!--<![endif]-->
+
+        <!--Oh Yes, IE 9+ Supports animation, lets activate for IE 9+-->
+        <!--[if gte IE 9]>
+            <script type="text/javascript">new WOW().init();</script>
+        <![endif]-->         
+
+        <!--Opacity & Other IE fix for older browser-->
+        <!--[if lte IE 8]>
+            <script type="text/javascript" src="{% static 'hoteltp/js/ie-opacity-polyfill.js' %}"></script>
+        <![endif]-->
+
+        <!-- my js -->
+        <script src="{% static 'hoteltp/js/main.js' %}"></script>
+      </body>

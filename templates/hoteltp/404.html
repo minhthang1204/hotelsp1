@@ -1,0 +1,20 @@
+{% extends 'hoteltp/base.html' %}
+{% load static %}
+
+{% block body %}
+    <body id="error_page">
+	{% include 'hoteltp/navbar.html' %}
+        <!-- start erroe area -->
+        <section class="error_area text-center" style="background: url({% static 'hoteltp/img/error_bg.jpg'%}) no-repeat center center; background-size:cover">
+            <div class="container">
+                <div class="error margin-tb-170">
+                    <p>404</p>
+                    <div class="section_title nice_title">
+                        <h3>Error</h3>                        
+                    </div>
+                    <a href="{% url 'hotel:index' %}" class="btn btn-warning btn-lg">Back to Homepage</a>
+                </div>
+            </div>
+        </section>
+        <!-- end error area -->
+{% endblock %}
